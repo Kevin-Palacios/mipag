@@ -1,0 +1,106 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: #eee;
+}
+
+html, body{
+	background-color: black; 
+}
+
+.main_container{
+	border: 4px solid rgb(255,0,0);
+	border-radius: 50px;
+	margin: 2rem;
+	background-color: black;
+	width:100%;
+}
+
+.historia{
+	padding: 10px;
+	margin: 20px;
+	width: 90px;
+	height: 20px;
+}
+
+.plataformas{
+	padding: 10px;
+	margin: 50px;
+	width: 90px;
+	height: 20px;
+}
+
+.modos_juegos{
+	padding: 10px;
+	margin: 90px;
+	width: 80px;
+	height: 20px;
+}
+
+.personajes{
+	padding: 0px;
+	margin: 80px;
+	width: 130px;
+	height: 20px;
+}
+
+.relacionados{
+	padding: 10px;
+	margin: 80px;
+	width: 100px;
+	height: 20px;
+}
+
+.a-historia{
+	margin: 10px;
+	overflow:auto;
+}
+
+nav, section, footer, article, aside, header{
+	border: 2px solid rgb(229, 190, 1);
+	margin: 1rem;
+	border-radius: 10px;
+	padding: 1rem;
+}
+nav{
+	
+}
+section{
+	width:97%;
+	height:115rem;
+}
+
+article, aside{
+	width: 40%;
+	display: inline-block;
+	background-color: black;
+}
+article{
+	width:60%;
+}
+aside{
+	width:25%;
+	position:absolute;
+	top:74.5%;
+	overflow: auto;
+	height:107rem;
+
+	
+}
+.a-historia{
+	position:relative;
+	top:50px;
+
+}
+p{
+	text-align: justify;
+}
+
+nav, section{
+	background-color: black;
+}
+
+footer{
+	background-color: black;
+	text-align:center;
+}
